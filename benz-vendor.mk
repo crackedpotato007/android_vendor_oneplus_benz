@@ -814,6 +814,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/benz/proprietary/vendor/etc/ltm_config_AC147_P_7_A0012_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC147_P_7_A0012_dsc_cmd_mode_panel.xml
 
 PRODUCT_PACKAGES += \
+    liblhdc \
+    liblhdcBT_enc \
+    liblhdcv5 \
+    liblhdcv5BT_enc \
     com.qti.eeprom.gt24p128c2csli_imx766 \
     com.qti.eeprom.gt24p64b_imx688 \
     com.qti.eeprom.irs2381c_polar \
